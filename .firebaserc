@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "your-project-id"
+  },
+  "functions": {
+    "source": "functions",
+    "ignore": [
+      "build/packages/**",
+      "build/.dart_tool/**",
+      "build/bin/packages/**",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
